@@ -1,0 +1,75 @@
+
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+body{
+    background-image: url('https://images.unsplash.com/photo-1779462303506-c46eb40de2c9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: white;
+}
+
+header{
+    text-align: center;
+    padding: 4px 2px;
+    background: rgba(255, 255, 255, 0.95);
+    color: black;
+    border-radius: 100px;
+    font-size: 1.3rem;
+}
+header:hover{
+    color: #69DDFF;
+}
+
+svg:hover{
+    transform: scale(2.0);
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.tarjeta{
+    background: rgba(255,255,255,0.95);
+    color: black;
+    padding: 35px;
+    border-radius: 25px;
+    text-align: center;
+    transition: 0.5s;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    
+}
+
+.tarjeta:hover{
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 20px 40px #97D2FB;
+    background-color: #E9D6EC;
+}
+
+button{
+    padding: 12px 25px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(45deg, #EDD382, #00f2fe);
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+button:hover{
+    transform: scale(1.2) rotate(-2deg);
+    box-shadow:1px 3px 4px rgb(255, 255, 255);
+}
